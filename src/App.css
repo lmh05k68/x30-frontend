@@ -6,16 +6,11 @@
 }
 
 .logo {
-  /* height: 1000em;
+  height: 22em;
   padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms; */
-  color: red;
-
-  height: 60em;
-  padding: 15em;
-  will-change: filter;
-  transition: filter 3000ms;
+  transition: filter 300ms;
+  position: fixed;
 }
 .logo:hover {
   filter: drop-shadow(10 10 20em #646cffab);
@@ -40,9 +35,23 @@
 }
 
 .card {
+<<<<<<< HEAD
   padding: 20em;
 }
 
 .read-the-docs {
   color: #111;
 }
+=======
+  padding: 2em;
+
+}
+
+.read-the-docs {
+  color: #888;
+  font-size: 30px;
+  transition: filter 300ms;
+}
+
+
+>>>>>>> 0663230 (123)
